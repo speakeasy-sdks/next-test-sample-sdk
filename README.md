@@ -26,7 +26,6 @@ import (
 	"context"
 	nexttestsamplesdk "github.com/speakeasy-sdks/next-test-sample-sdk"
 	"log"
-	"net/http"
 )
 
 func main() {
@@ -37,8 +36,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	if res.StatusCode == http.StatusOK {
+	if res != nil {
 		// handle response
 	}
 }
@@ -126,7 +124,6 @@ import (
 	"context"
 	nexttestsamplesdk "github.com/speakeasy-sdks/next-test-sample-sdk"
 	"log"
-	"net/http"
 )
 
 func main() {
@@ -139,8 +136,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	if res.StatusCode == http.StatusOK {
+	if res != nil {
 		// handle response
 	}
 }
@@ -158,7 +154,6 @@ import (
 	"context"
 	nexttestsamplesdk "github.com/speakeasy-sdks/next-test-sample-sdk"
 	"log"
-	"net/http"
 )
 
 func main() {
@@ -171,8 +166,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	if res.StatusCode == http.StatusOK {
+	if res != nil {
 		// handle response
 	}
 }
