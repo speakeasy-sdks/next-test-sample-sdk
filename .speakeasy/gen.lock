@@ -3,10 +3,10 @@ id: cdb60137-5108-4909-aa67-f1a7abaa76cc
 management:
   docChecksum: 21c25ca8a734b4fb704e98d966524ee0
   docVersion: 1.0.0
-  speakeasyVersion: 1.204.1
-  generationVersion: 2.279.1
-  releaseVersion: 0.7.0
-  configChecksum: 665697da329e29d06ebeb24c2146aee0
+  speakeasyVersion: 1.207.1
+  generationVersion: 2.280.6
+  releaseVersion: 0.7.1
+  configChecksum: 30b0667fefd6f9e5d70df39585893fb2
   repoURL: https://github.com/speakeasy-sdks/next-test-sample-sdk.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/next-test-sample-sdk
@@ -14,7 +14,7 @@ management:
 features:
   go:
     core: 3.4.4
-    globalServerURLs: 2.82.1
+    globalServerURLs: 2.82.2
     responseFormat: 0.1.0
 generatedFiles:
   - pets.go
